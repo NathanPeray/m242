@@ -1,0 +1,11 @@
+{
+    "base_url" : "m242.n-peray.ch",
+    "protocol" : "https",
+    "db" : {
+        "host" : "localhost",
+        "user" : "u91977db5",
+        "pw" : "1234abcd",
+        "db" : "u91977db5"
+    },
+    "pepper" : "ba0bdbbeab3ab787"
+}

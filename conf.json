@@ -1,0 +1,11 @@
+{
+    "base_url" : "localhost/m242backend/public",
+    "protocol" : "http",
+    "db" : {
+        "host" : "localhost",
+        "user" : "root",
+        "pw" : "",
+        "db" : "m242_backend"
+    },
+    "pepper" : "@pepper@"
+}

@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+}
+.center-wrapper {
+    margin: auto;
+    padding: 2em;
+    border-radius: 5px;
+    max-width: 1200px;
+    margin-top: 2em;
+    display: grid;
+    grid-column: auto auto 1fr;
+}
+.top {
+    width: 100vw;
+    background-color: #bbb;
+}
+ul {
+    list-style-type: none;
+    max-width: 1200px;
+    margin: auto;
+    display: block;
+    padding: 0;
+    font-size: 1.2em;
+}
+ul li {
+    display: inline-block;
+}
+ul li a {
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: blue;
+    color: #3344aa;
+}
+ul li:last-child {
+    float: right;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+    border: 2px solid #bbb;
+    padding: 2em;
+    max-width: 210px;
+    border-radius: 5px;
+}
+input {
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+.input-wrapper {
+    position: relative;
+    display: grid;
+}
+input:focus + label {
+    display: none;
+}
+label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1em;
+    background-color: #fff;
+}
+.card {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+}
+.uid {
+    padding: 0.5em
+}
+.user {
+    padding: 0.5em;
+}
+th {
+    text-align: left;
+    background-color: #aaa;
+    padding: 0.2em;
+}
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
